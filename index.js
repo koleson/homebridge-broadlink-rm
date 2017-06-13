@@ -5,7 +5,7 @@ module.exports = (homebridge) => {
   global.Service = homebridge.hap.Service;
   global.Characteristic = homebridge.hap.Characteristic;
 
-  homebridge.registerPlatform("homebridge-broadlink-rm", "BroadlinkRM", BroadlinkRMPlatform);
+  homebridge.registerPlatform("homebridge-broadlink-rm", "BroadlinkRM-dev", BroadlinkRMPlatform);
 }
 
 class BroadlinkRMPlatform extends HomebridgePlatform {
